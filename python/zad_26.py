@@ -1,7 +1,5 @@
-# @author Jakub Kijek, Informatyka, sem. 1, gr. 2
-# @date 2026.10.07
-
 import math
+
 
 def sin_sum(a: float, b: float) -> tuple[float, float]:
     return math.sin(a) + math.sin(b), 2 * math.sin((a + b) / 2) * math.cos((a - b) / 2)

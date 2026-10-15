@@ -1,6 +1,3 @@
-# @author Jakub Kijek, Informatyka, sem. 1, gr. 2
-# @date 2026.10.07
-
 import statistics
 
 with open("zad_16.txt") as f:

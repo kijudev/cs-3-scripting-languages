@@ -1,6 +1,3 @@
-# @author Jakub Kijek, Informatyka, sem. 1, gr. 2
-# @date 2026.10.07
-
 print(
     'The program is going to ask for a list of number; if you wish to end your input please write "end"'
 )
@@ -17,4 +14,3 @@ while True:
 
 print("----")
 print(*items, sep = '\n')
-

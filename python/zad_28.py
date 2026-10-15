@@ -1,7 +1,3 @@
-# @author Jakub Kijek, Informatyka, sem. 1, gr. 2
-# @date 2026.10.07
-
-
 def solve(a: list[list[float]], b: list[float]) -> list[float]:
     n = len(b)
     m = [row[:] + [b[i]] for i, row in enumerate(a)]
@@ -24,7 +20,7 @@ def solve(a: list[list[float]], b: list[float]) -> list[float]:
 #  2x + y -  z  =  8
 # -3x - y + 2z  = -11
 # -2x + y + 2z  = -3
-a = [[2, 1, -1], [-3, -1, 2], [-2, 1, 2]]
-b = [8, -11, -3]
+a = [[2., 1., -1.], [-3., -1., 2.], [-2., 1., 2.]]
+b = [8., -11., -3.]
 
 print(f"x = {solve(a, b)}")

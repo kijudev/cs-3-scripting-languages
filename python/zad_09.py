@@ -1,6 +1,3 @@
-# @author Jakub Kijek, Informatyka, sem. 1, gr. 2
-# @date 2026.10.07
-
 items_a = [42, True, False]
 items_a.append("meaning of everything")
 items_a.append([True, False])

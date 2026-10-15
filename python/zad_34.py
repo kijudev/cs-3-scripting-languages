@@ -10,4 +10,4 @@ for i, (gender, color, size) in enumerate(combinations, start=1):
     with open(f"zad_34_metka_{i}.txt", "w") as f:
         f.write(f"płeć: {gender}\nkolor: {color}\nrozmiar: {size}\n")
 
-print(f"created {i} labels")
+print(f"created {len(genders) * len(colors) * len(sizes)} labels")

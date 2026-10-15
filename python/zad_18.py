@@ -1,7 +1,3 @@
-# @author Jakub Kijek, Informatyka, sem. 1, gr. 2
-# @date 2026.10.07
-
-
 def get_number(prompt: str) -> int | float | complex:
     text = input(prompt)
 
